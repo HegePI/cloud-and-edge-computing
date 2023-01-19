@@ -1,4 +1,7 @@
+use std::time::Instant;
+
 fn main() {
+    let start = Instant::now();
     let x = 10000;
     let y = 1000;
     let z = 1;
@@ -27,4 +30,6 @@ fn main() {
     }
 
     println!("done");
+
+    println!("Elapsed time: {}", start.elapsed().as_secs());
 }
