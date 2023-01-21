@@ -11,9 +11,9 @@ fn main() {
     let mut rng = rand::thread_rng();
     let range = Uniform::new(0., 1.);
 
-    let a = vec![(0..y).map(|_| rng.sample(&range)).collect::<Vec<f64>>(); x];
-    let b = vec![(0..x).map(|_| rng.sample(&range)).collect::<Vec<f64>>(); y];
-    let c = vec![(0..x).map(|_| rng.sample(&range)).collect::<Vec<f64>>(); z];
+    let a = vec![(0..y).map(|_| rng.sample(&range)).collect::<Vec<f32>>(); x];
+    let b = vec![(0..x).map(|_| rng.sample(&range)).collect::<Vec<f32>>(); y];
+    let c = vec![(0..x).map(|_| rng.sample(&range)).collect::<Vec<f32>>(); z];
     println!("matrices created");
 
     let mut ab = vec![vec![0.0; x]; x];
