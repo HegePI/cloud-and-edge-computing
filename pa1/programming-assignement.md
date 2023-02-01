@@ -30,7 +30,7 @@ Plotting the CDF plots a straight line, meaning there are close to none outliers
 
 ## 5. Evaluation
 
-Looking at the memory usage (blue line) we can see that in first climb and peak matricies B and C are created and multiplied together resulting to the memory usage of around 8Mb. After the multiplication memory usage drops down to almost 0. Then matrix a is created resulting the second climb. Then multiplying A and BC results to the last climb and after multiplication memory usage drops down to almost 0 again. Plateus in memory usage could be explained as some wait time of the process.
+Looking at the memory usage (blue line) we can see that in first climb and peak matricies B and C are created and multiplied together resulting to the memory usage of around 8Gb. After the multiplication memory usage drops down to almost 0. Then matrix a is created resulting the second climb. Then multiplying A and BC results to the last climb and after multiplication memory usage drops down to almost 0 again. Plateus in memory usage could be explained as some wait time of the process.
 
 There are some peaks in CPU usage, but otherwisecpu CPU usage is almost the same. Peaks are probably some heavy calculations in matrix multiplication. This could be investigated further.
 
