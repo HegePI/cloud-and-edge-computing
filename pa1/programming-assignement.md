@@ -1,4 +1,4 @@
-# Programming assignement 1
+# Programming assignement 1 - Heikki Pulli
 
 ## 1.  Availability
 
