@@ -18,7 +18,15 @@ Faas is a single function that provides something to the application that is usi
 
 ## 5
 
+"Cold start" means the time when user requests serverless service but which isn't running on the server yet. Server platform needs to start the service and possibly handle all kinds of stateless initializations of other services depending on if the service uses any of these. On the meantime user just needs to wait untill the service is running. This could take several seconds.
+
 ## 6
+
+Figure 1 shows the way new videos are cut into segments and segments are stored to other locations. When user wants to watch the videos these segments are then transcoded into suitable format for the user to watch.
+
+Reason netflix wants to transcode the video files is that there are multiple video players that support different video formats. By transcoding the video more people can watch these videos.
+
+Transcoding can also reduce the file size of the videos, which in return allows more traffic to go through netflix's servers allowing more people to access the service.
 
 ## 7
 
