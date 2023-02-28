@@ -1,9 +1,11 @@
-import threading
 import numpy as np
 import time
 
 def thread_function(numArray, N):
     np.sum(numArray[:N:])
+
+def worker_function(na, n):
+    thread_function(na,n)
 
 def main():
     maxN = 1000
@@ -12,7 +14,7 @@ def main():
     for i in range(1000): 
         start_time = time.time()
         N  = np.random.randint(1,1000)
-        thread_function(numArray, N)
+        worker_function(numArray, N)
         end_time = time.time()
         time_samples[i] = end_time - start_time
 

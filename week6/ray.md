@@ -32,6 +32,8 @@ Source code
 
 ## 3
 
+All the stats
+
 ## 4
 
 ## 5
