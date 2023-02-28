@@ -14,9 +14,23 @@ Intel website of the CPU
 
 <https://www.intel.com/content/www/us/en/products/sku/75123/intel-core-i74770k-processor-8m-cache-up-to-3-90-ghz/specifications.html>
 
-## 3
+b)
 
 ![Threading info](/home/heikki/koulu/cloud-and-edge-computing/week6/threading.png)
+
+Source code
+
+<https://github.com/HegePI/cloud-and-edge-computing/blob/master/week6/thread_test.py>
+
+c)
+
+![Function info](/home/heikki/koulu/cloud-and-edge-computing/week6/function.png)
+
+Source code
+
+<https://github.com/HegePI/cloud-and-edge-computing/blob/master/week6/function_test.py>
+
+## 3
 
 ## 4
 
