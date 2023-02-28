@@ -108,3 +108,9 @@ In figure 10a the y-axis is skewed to make the line straight.
 In all the figures it seems that authors only show how great Ray is in certain tasks, but they don't tell any situations where it might not work properly other than the case of not using GCS flush.
 
 ## 12
+
+As a cloud provider important thing for providing Ray as a service for customers would be allocating enough resources for multiple Ray instances. Also giving the customers possibility to finetune their resource needs would be important, and not just letting Ray to request all the possible resources to its self.
+
+Also providing customers a UI to interact with their Ray instance would be important. Using the UI would be possible to define what kind of workloads would be running in the instance and monitoring the results and how well the Ray instance performs.
+
+To automate this workflow CLI tool would be also important. CLI tool would have access to the Ray instance and it would be possible to start, stop and report results workloads of the workloads. This would be automated when CLI tool would be part of some workflow tool, ie. github actions or travis.
